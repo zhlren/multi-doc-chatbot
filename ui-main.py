@@ -1,16 +1,17 @@
 """Main entrypoint for the app."""
-from typing import Optional
 
 from fastapi import FastAPI, Request, WebSocket, WebSocketDisconnect
 from fastapi.templating import Jinja2Templates
+from langchain.chat_models import ChatOpenAI
+from dotenv import load_dotenv
+from langchain.memory import ConversationBufferWindowMemory
+from langchain.schema import SystemMessage, HumanMessage
+from langchain import OpenAI
+from langchain.chains import ConversationChain
+from langchain.chains.conversation.memory import  ConversationBufferMemory, ConversationSummaryMemory
+from langchain.callbacks import get_openai_callback
 
-from query.chain_by_doc import get_chain
 from web.schemas import ChatResponse
-from langchain.chains import ConversationalRetrievalChain
-from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.vectorstores import Chroma
-from langchain.text_splitter import CharacterTextSplitter
-from langchain.document_loaders import DirectoryLoader
 
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
@@ -40,6 +41,7 @@ logger.addHandler(stream_handler)
 @app.on_event("startup")
 async def startup_event():
     print("startup begin")
+    load_dotenv('.env')
     print("startup end")
 
 @app.get("/")
@@ -49,9 +51,29 @@ async def get(request: Request):
 
 @app.websocket("/chat")
 async def websocket_endpoint(websocket: WebSocket):
-    qa = get_chain()
+
 
     await websocket.accept()
+
+    llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0)
+    conversation = ConversationChain(llm = llm, memory = ConversationBufferWindowMemory(k=3))
+
+    # summary_conversation = ConversationChain(llm = llm, memory = ConversationSummaryMemory(llm=llm))
+    fst_question = "I want you to act as a spoken English teacher and improver. I will speak to you in English and you will reply to me in English to practice my spoken English. I want you to keep your reply neat, limiting the reply to 100 words. I want you to strictly correct my grammar mistakes, typos, and factual errors. I want you to ask me a question in your reply. Now let's start practicing, you could ask me a question first. Remember, I want you to strictly correct my grammar mistakes, typos, and factual errors."
+
+    resp = track_tokens_usage(conversation, fst_question)
+
+
+    start_resp = ChatResponse(sender="bot", message="", type="start")
+    await websocket.send_json(start_resp.dict())
+
+    answer_resp = ChatResponse(sender="bot", message=resp, type="stream")
+    await websocket.send_json(answer_resp.dict())
+
+    end_resp = ChatResponse(sender="bot", message="", type="end")
+    await websocket.send_json(end_resp.dict())
+
+
     chat_history = []
     while True:
         try:
@@ -65,8 +87,6 @@ async def websocket_endpoint(websocket: WebSocket):
             start_resp = ChatResponse(sender="bot", message="", type="start")
             await websocket.send_json(start_resp.dict())
 
-
-
             # result = pdf_qa(
             #     {"question": query, "chat_history": chat_history})
             #
@@ -74,11 +94,11 @@ async def websocket_endpoint(websocket: WebSocket):
             #     {"question": question, "chat_history": chat_history}
             # )
 
-            result = qa({"question": question, "chat_history": chat_history})
+            resp = track_tokens_usage(conversation, question)
 
-            chat_history.append((question, result["answer"]))
+            chat_history.append((question, resp))
 
-            answer_resp = ChatResponse(sender="bot", message=result["answer"], type="stream")
+            answer_resp = ChatResponse(sender="bot", message=resp, type="stream")
             await websocket.send_json(answer_resp.dict())
 
             end_resp = ChatResponse(sender="bot", message="", type="end")
@@ -94,6 +114,14 @@ async def websocket_endpoint(websocket: WebSocket):
                 type="error",
             )
             await websocket.send_json(resp.dict())
+
+
+def track_tokens_usage(chain, query):
+    with get_openai_callback() as cb :
+        result = chain.run(query)
+        print(f'Total tokens: {cb.total_tokens}')
+
+    return result
 
 
 if __name__ == "__main__":

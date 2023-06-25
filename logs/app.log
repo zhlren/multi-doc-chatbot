@@ -307,3 +307,95 @@
 2023-06-25 20:18:38: INFO: [ui-main.py: 60]: question:anything else?
 2023-06-25 20:18:53: INFO: [ui-main.py: 87]: websocket disconnect
 2023-06-25 20:18:53: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 22:36:30: INFO: [ui-main.py: 99]: main start
+2023-06-25 23:08:25: INFO: [ui-main.py: 99]: main start
+2023-06-25 23:27:54: INFO: [ui-main.py: 99]: main start
+2023-06-25 23:28:13: INFO: [ui-main.py: 60]: question:whats your name
+2023-06-25 23:28:37: INFO: [ui-main.py: 60]: question:i am boy
+2023-06-25 23:29:00: INFO: [ui-main.py: 60]: question:the weather is good
+2023-06-25 23:29:26: INFO: [ui-main.py: 60]: question:whats your name
+2023-06-25 23:29:44: INFO: [ui-main.py: 85]: websocket disconnect
+2023-06-25 23:30:33: INFO: [ui-main.py: 99]: main start
+2023-06-25 23:30:39: INFO: [ui-main.py: 60]: question:whats your name
+2023-06-25 23:30:58: INFO: [ui-main.py: 60]: question:good day
+2023-06-25 23:35:39: INFO: [ui-main.py: 85]: websocket disconnect
+2023-06-25 23:35:44: INFO: [ui-main.py: 99]: main start
+2023-06-25 23:35:50: INFO: [ui-main.py: 60]: question:hi
+2023-06-25 23:35:59: INFO: [ui-main.py: 60]: question:yes
+2023-06-25 23:36:14: INFO: [ui-main.py: 60]: question:C
+2023-06-25 23:36:35: INFO: [ui-main.py: 85]: websocket disconnect
+2023-06-25 23:36:46: INFO: [ui-main.py: 99]: main start
+2023-06-25 23:37:32: INFO: [ui-main.py: 60]: question:hi
+2023-06-25 23:37:37: INFO: [ui-main.py: 60]: question:yes
+2023-06-25 23:37:44: INFO: [ui-main.py: 60]: question:D
+2023-06-25 23:37:51: INFO: [ui-main.py: 60]: question:D
+2023-06-25 23:37:58: INFO: [ui-main.py: 60]: question:D
+2023-06-25 23:38:05: INFO: [ui-main.py: 60]: question:D
+2023-06-25 23:38:11: INFO: [ui-main.py: 60]: question:D
+2023-06-25 23:38:43: WARNING: [before_sleep.py: 65]: Retrying langchain.chat_models.openai.ChatOpenAI.completion_with_retry.<locals>._completion_with_retry in 1.0 seconds as it raised ServiceUnavailableError: The server is overloaded or not ready yet..
+2023-06-25 23:38:52: INFO: [ui-main.py: 85]: websocket disconnect
+2023-06-25 23:38:56: INFO: [ui-main.py: 60]: question:hi
+2023-06-25 23:43:34: INFO: [ui-main.py: 85]: websocket disconnect
+2023-06-25 23:43:40: INFO: [ui-main.py: 99]: main start
+2023-06-25 23:43:46: INFO: [ui-main.py: 60]: question:hi
+2023-06-25 23:43:58: INFO: [ui-main.py: 60]: question:魔法师
+2023-06-25 23:44:06: INFO: [ui-main.py: 60]: question:精灵
+2023-06-25 23:44:13: INFO: [ui-main.py: 60]: question:女性
+2023-06-25 23:44:24: INFO: [ui-main.py: 60]: question:冒险
+2023-06-25 23:44:47: INFO: [ui-main.py: 60]: question:矮人
+2023-06-25 23:45:15: INFO: [ui-main.py: 85]: websocket disconnect
+2023-06-25 23:50:21: INFO: [ui-main.py: 102]: main start
+2023-06-25 23:57:38: INFO: [ui-main.py: 114]: main start
+2023-06-25 23:57:49: INFO: [ui-main.py: 100]: websocket disconnect
+2023-06-25 23:57:57: INFO: [ui-main.py: 70]: question:hi
+2023-06-25 23:57:57: ERROR: [ui-main.py: 103]: Got unknown type h
+2023-06-25 23:58:11: INFO: [ui-main.py: 100]: websocket disconnect
+2023-06-25 23:58:25: INFO: [ui-main.py: 114]: main start
+2023-06-25 23:59:41: INFO: [ui-main.py: 100]: websocket disconnect
+2023-06-26 00:01:18: INFO: [ui-main.py: 121]: main start
+2023-06-26 00:01:46: INFO: [ui-main.py: 77]: question:有哪些种族
+2023-06-26 00:02:22: INFO: [ui-main.py: 77]: question:10
+2023-06-26 00:02:31: INFO: [ui-main.py: 77]: question:吸血鬼
+2023-06-26 00:02:49: INFO: [ui-main.py: 107]: websocket disconnect
+2023-06-26 00:03:27: INFO: [ui-main.py: 121]: main start
+2023-06-26 00:03:41: INFO: [ui-main.py: 77]: question:人类
+2023-06-26 00:06:08: INFO: [ui-main.py: 107]: websocket disconnect
+2023-06-26 00:06:13: INFO: [ui-main.py: 121]: main start
+2023-06-26 00:06:23: INFO: [ui-main.py: 77]: question:是的
+2023-06-26 00:08:20: INFO: [ui-main.py: 107]: websocket disconnect
+2023-06-26 00:08:56: INFO: [ui-main.py: 121]: main start
+2023-06-26 00:09:06: INFO: [ui-main.py: 77]: question:yes
+2023-06-26 00:09:13: INFO: [ui-main.py: 77]: question:no
+2023-06-26 00:10:56: INFO: [ui-main.py: 107]: websocket disconnect
+2023-06-26 00:11:00: INFO: [ui-main.py: 121]: main start
+2023-06-26 00:11:13: INFO: [ui-main.py: 77]: question:yes
+2023-06-26 00:11:26: INFO: [ui-main.py: 77]: question:Boy
+2023-06-26 00:11:38: INFO: [ui-main.py: 77]: question:Boy
+2023-06-26 00:12:26: INFO: [ui-main.py: 107]: websocket disconnect
+2023-06-26 00:12:34: INFO: [ui-main.py: 121]: main start
+2023-06-26 00:12:44: INFO: [ui-main.py: 77]: question:yes
+2023-06-26 00:16:00: INFO: [ui-main.py: 107]: websocket disconnect
+2023-06-26 00:16:05: INFO: [ui-main.py: 124]: main start
+2023-06-26 00:16:24: INFO: [ui-main.py: 80]: question:fine
+2023-06-26 00:16:38: INFO: [ui-main.py: 80]: question:football
+2023-06-26 00:17:02: INFO: [ui-main.py: 80]: question:playing
+2023-06-26 00:40:30: INFO: [ui-main.py: 110]: websocket disconnect
+2023-06-26 00:40:33: INFO: [ui-main.py: 134]: main start
+2023-06-26 00:41:47: INFO: [ui-main.py: 133]: main start
+2023-06-26 00:42:19: INFO: [ui-main.py: 133]: main start
+2023-06-26 00:43:24: INFO: [ui-main.py: 129]: main start
+2023-06-26 00:44:13: INFO: [ui-main.py: 82]: question:But the fact of the matter is that mistakes are a common part of everyone's life.
+2023-06-26 00:44:16: ERROR: [ui-main.py: 110]: 'str' object has no attribute 'content'
+2023-06-26 00:44:27: INFO: [ui-main.py: 107]: websocket disconnect
+2023-06-26 00:44:31: INFO: [ui-main.py: 129]: main start
+2023-06-26 00:44:38: INFO: [ui-main.py: 107]: websocket disconnect
+2023-06-26 00:44:44: INFO: [ui-main.py: 82]: question:But the fact of the matter is that mistakes are a common part of everyone's life.
+2023-06-26 00:44:47: ERROR: [ui-main.py: 110]: 'str' object has no attribute 'content'
+2023-06-26 00:45:01: INFO: [ui-main.py: 107]: websocket disconnect
+2023-06-26 00:45:06: INFO: [ui-main.py: 129]: main start
+2023-06-26 00:45:41: WARNING: [before_sleep.py: 65]: Retrying langchain.chat_models.openai.ChatOpenAI.completion_with_retry.<locals>._completion_with_retry in 1.0 seconds as it raised ServiceUnavailableError: The server is overloaded or not ready yet..
+2023-06-26 00:45:49: INFO: [ui-main.py: 107]: websocket disconnect
+2023-06-26 00:46:02: INFO: [ui-main.py: 129]: main start
+2023-06-26 00:46:20: INFO: [ui-main.py: 82]: question:But the fact of the matter is that mistakes are a common part of everyone's life.
+2023-06-26 00:46:43: INFO: [ui-main.py: 82]: question:ok gogogo
+2023-06-26 00:47:05: INFO: [ui-main.py: 107]: websocket disconnect
