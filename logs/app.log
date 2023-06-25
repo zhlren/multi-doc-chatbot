@@ -1,0 +1,309 @@
+2023-06-25 19:27:29: INFO: [ui-main.py: 96]: main start
+2023-06-25 19:27:29: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 19:27:29: INFO: [posthog.py: 15]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 19:27:29: INFO: [__init__.py: 88]: Running Chroma using direct local API.
+2023-06-25 19:27:30: WARNING: [__init__.py: 43]: Using embedded DuckDB with persistence: data will be stored in: ./data
+2023-06-25 19:27:31: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 19:27:31: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 19:27:31: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 19:27:32: INFO: [duckdb.py: 460]: loaded in 9 embeddings
+2023-06-25 19:27:32: INFO: [duckdb.py: 472]: loaded in 1 collections
+2023-06-25 19:27:32: INFO: [duckdb.py: 89]: collection with name langchain already exists, returning existing collection
+2023-06-25 19:27:34: INFO: [util.py: 67]: error_code=invalid_api_key error_message='Incorrect API key provided: sk-kgl2K***************************************oU02. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-06-25 19:27:34: INFO: [duckdb.py: 414]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 19:29:52: INFO: [ui-main.py: 96]: main start
+2023-06-25 19:29:52: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 19:29:52: INFO: [posthog.py: 15]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 19:29:52: INFO: [__init__.py: 88]: Running Chroma using direct local API.
+2023-06-25 19:29:53: WARNING: [__init__.py: 43]: Using embedded DuckDB with persistence: data will be stored in: ./data
+2023-06-25 19:29:53: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 19:29:53: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 19:29:53: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 19:29:53: INFO: [duckdb.py: 460]: loaded in 9 embeddings
+2023-06-25 19:29:53: INFO: [duckdb.py: 472]: loaded in 1 collections
+2023-06-25 19:29:53: INFO: [duckdb.py: 89]: collection with name langchain already exists, returning existing collection
+2023-06-25 19:29:55: INFO: [util.py: 67]: error_code=invalid_api_key error_message='Incorrect API key provided: sk-kgl2K***************************************oU02. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-06-25 19:29:55: INFO: [duckdb.py: 414]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 19:31:22: INFO: [ui-main.py: 96]: main start
+2023-06-25 19:31:23: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 19:31:23: INFO: [posthog.py: 15]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 19:31:23: INFO: [__init__.py: 88]: Running Chroma using direct local API.
+2023-06-25 19:31:23: WARNING: [__init__.py: 43]: Using embedded DuckDB with persistence: data will be stored in: ./data
+2023-06-25 19:31:23: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 19:31:23: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 19:31:23: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 19:31:23: INFO: [duckdb.py: 460]: loaded in 9 embeddings
+2023-06-25 19:31:23: INFO: [duckdb.py: 472]: loaded in 1 collections
+2023-06-25 19:31:23: INFO: [duckdb.py: 89]: collection with name langchain already exists, returning existing collection
+2023-06-25 19:31:25: INFO: [util.py: 67]: error_code=invalid_api_key error_message='Incorrect API key provided: sk-kgl2K***************************************oU02. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-06-25 19:31:25: INFO: [duckdb.py: 414]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 19:34:45: INFO: [ui-main.py: 96]: main start
+2023-06-25 19:34:45: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 19:34:45: INFO: [posthog.py: 15]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 19:34:45: INFO: [__init__.py: 88]: Running Chroma using direct local API.
+2023-06-25 19:34:46: WARNING: [__init__.py: 43]: Using embedded DuckDB with persistence: data will be stored in: ./data
+2023-06-25 19:34:46: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 19:34:46: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 19:34:46: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 19:34:47: INFO: [duckdb.py: 460]: loaded in 9 embeddings
+2023-06-25 19:34:47: INFO: [duckdb.py: 472]: loaded in 1 collections
+2023-06-25 19:34:47: INFO: [duckdb.py: 89]: collection with name langchain already exists, returning existing collection
+2023-06-25 19:34:50: INFO: [util.py: 67]: error_code=invalid_api_key error_message='Incorrect API key provided: sk-kgl2K***************************************oU02. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-06-25 19:34:51: INFO: [duckdb.py: 414]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 19:37:05: INFO: [ui-main.py: 96]: main start
+2023-06-25 19:37:06: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 19:37:06: INFO: [posthog.py: 15]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 19:37:06: INFO: [__init__.py: 88]: Running Chroma using direct local API.
+2023-06-25 19:37:06: WARNING: [__init__.py: 43]: Using embedded DuckDB with persistence: data will be stored in: ./data
+2023-06-25 19:37:06: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 19:37:06: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 19:37:06: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 19:37:07: INFO: [duckdb.py: 460]: loaded in 9 embeddings
+2023-06-25 19:37:07: INFO: [duckdb.py: 472]: loaded in 1 collections
+2023-06-25 19:37:07: INFO: [duckdb.py: 89]: collection with name langchain already exists, returning existing collection
+2023-06-25 19:37:08: INFO: [util.py: 67]: error_code=invalid_api_key error_message='Incorrect API key provided: sk-kgl2K***************************************oU02. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-06-25 19:37:08: INFO: [duckdb.py: 414]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 19:37:42: INFO: [ui-main.py: 96]: main start
+2023-06-25 19:37:42: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 19:37:42: INFO: [posthog.py: 15]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 19:37:42: INFO: [__init__.py: 88]: Running Chroma using direct local API.
+2023-06-25 19:37:42: WARNING: [__init__.py: 43]: Using embedded DuckDB with persistence: data will be stored in: ./data
+2023-06-25 19:37:43: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 19:37:43: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 19:37:43: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 19:37:43: INFO: [duckdb.py: 460]: loaded in 9 embeddings
+2023-06-25 19:37:43: INFO: [duckdb.py: 472]: loaded in 1 collections
+2023-06-25 19:37:43: INFO: [duckdb.py: 89]: collection with name langchain already exists, returning existing collection
+2023-06-25 19:37:44: INFO: [util.py: 67]: error_code=invalid_api_key error_message='Incorrect API key provided: sk-kgl2K***************************************oU02. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-06-25 19:37:44: INFO: [duckdb.py: 414]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 19:38:42: INFO: [ui-main.py: 96]: main start
+2023-06-25 19:38:42: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 19:38:42: INFO: [posthog.py: 15]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 19:38:42: INFO: [__init__.py: 88]: Running Chroma using direct local API.
+2023-06-25 19:38:42: WARNING: [__init__.py: 43]: Using embedded DuckDB with persistence: data will be stored in: ./data
+2023-06-25 19:38:42: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 19:38:42: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 19:38:43: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 19:38:43: INFO: [duckdb.py: 460]: loaded in 9 embeddings
+2023-06-25 19:38:43: INFO: [duckdb.py: 472]: loaded in 1 collections
+2023-06-25 19:38:43: INFO: [duckdb.py: 89]: collection with name langchain already exists, returning existing collection
+2023-06-25 19:38:44: INFO: [util.py: 67]: error_code=invalid_api_key error_message='Incorrect API key provided: sk-kgl2K***************************************oU02. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-06-25 19:38:44: INFO: [duckdb.py: 414]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 19:43:20: INFO: [ui-main.py: 96]: main start
+2023-06-25 19:43:20: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 19:43:20: INFO: [posthog.py: 15]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 19:43:20: INFO: [__init__.py: 88]: Running Chroma using direct local API.
+2023-06-25 19:43:21: WARNING: [__init__.py: 43]: Using embedded DuckDB with persistence: data will be stored in: ./data
+2023-06-25 19:43:21: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 19:43:21: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 19:43:21: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 19:43:21: INFO: [duckdb.py: 460]: loaded in 9 embeddings
+2023-06-25 19:43:21: INFO: [duckdb.py: 472]: loaded in 1 collections
+2023-06-25 19:43:21: INFO: [duckdb.py: 89]: collection with name langchain already exists, returning existing collection
+2023-06-25 19:43:24: INFO: [duckdb.py: 414]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 19:48:37: INFO: [ui-main.py: 95]: main start
+2023-06-25 19:48:37: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 19:48:37: INFO: [posthog.py: 15]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 19:48:37: INFO: [__init__.py: 88]: Running Chroma using direct local API.
+2023-06-25 19:48:37: WARNING: [__init__.py: 43]: Using embedded DuckDB with persistence: data will be stored in: ./data
+2023-06-25 19:48:38: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 19:48:38: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 19:48:38: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 19:48:38: INFO: [duckdb.py: 460]: loaded in 18 embeddings
+2023-06-25 19:48:38: INFO: [duckdb.py: 472]: loaded in 1 collections
+2023-06-25 19:48:38: INFO: [duckdb.py: 89]: collection with name langchain already exists, returning existing collection
+2023-06-25 19:48:40: INFO: [duckdb.py: 414]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 19:51:05: INFO: [ui-main.py: 95]: main start
+2023-06-25 19:51:05: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 19:51:05: INFO: [posthog.py: 15]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 19:51:05: INFO: [__init__.py: 88]: Running Chroma using direct local API.
+2023-06-25 19:51:06: WARNING: [__init__.py: 43]: Using embedded DuckDB with persistence: data will be stored in: ./data
+2023-06-25 19:51:06: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 19:51:06: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 19:51:06: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 19:51:06: INFO: [duckdb.py: 460]: loaded in 27 embeddings
+2023-06-25 19:51:06: INFO: [duckdb.py: 472]: loaded in 1 collections
+2023-06-25 19:51:06: INFO: [duckdb.py: 89]: collection with name langchain already exists, returning existing collection
+2023-06-25 19:51:07: INFO: [duckdb.py: 414]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 19:54:51: INFO: [ui-main.py: 95]: main start
+2023-06-25 19:54:51: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 19:54:51: INFO: [posthog.py: 15]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 19:54:51: INFO: [__init__.py: 88]: Running Chroma using direct local API.
+2023-06-25 19:54:52: WARNING: [__init__.py: 43]: Using embedded DuckDB with persistence: data will be stored in: ./data
+2023-06-25 19:54:52: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 19:54:52: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 19:54:52: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 19:54:52: INFO: [duckdb.py: 460]: loaded in 45 embeddings
+2023-06-25 19:54:52: INFO: [duckdb.py: 472]: loaded in 1 collections
+2023-06-25 19:54:52: INFO: [duckdb.py: 89]: collection with name langchain already exists, returning existing collection
+2023-06-25 19:54:54: INFO: [duckdb.py: 414]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 19:55:30: INFO: [ui-main.py: 95]: main start
+2023-06-25 19:55:30: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 19:55:30: INFO: [posthog.py: 15]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 19:55:30: INFO: [__init__.py: 88]: Running Chroma using direct local API.
+2023-06-25 19:55:31: WARNING: [__init__.py: 43]: Using embedded DuckDB with persistence: data will be stored in: ./data
+2023-06-25 19:55:31: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 19:55:31: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 19:55:31: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 19:55:31: INFO: [duckdb.py: 460]: loaded in 54 embeddings
+2023-06-25 19:55:31: INFO: [duckdb.py: 472]: loaded in 1 collections
+2023-06-25 19:55:31: INFO: [duckdb.py: 89]: collection with name langchain already exists, returning existing collection
+2023-06-25 19:57:34: INFO: [ui-main.py: 95]: main start
+2023-06-25 19:57:35: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 19:57:36: INFO: [posthog.py: 16]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 19:57:36: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 19:57:36: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 19:57:36: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 19:57:36: INFO: [duckdb.py: 506]: loaded in 54 embeddings
+2023-06-25 19:57:36: INFO: [duckdb.py: 518]: loaded in 1 collections
+2023-06-25 19:57:36: INFO: [duckdb.py: 107]: collection with name langchain already exists, returning existing collection
+2023-06-25 19:57:38: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 19:59:54: INFO: [ui-main.py: 95]: main start
+2023-06-25 19:59:55: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 19:59:56: INFO: [posthog.py: 16]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 19:59:56: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 19:59:56: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 19:59:56: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 19:59:56: INFO: [duckdb.py: 506]: loaded in 63 embeddings
+2023-06-25 19:59:56: INFO: [duckdb.py: 518]: loaded in 1 collections
+2023-06-25 19:59:56: INFO: [duckdb.py: 107]: collection with name langchain already exists, returning existing collection
+2023-06-25 19:59:58: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 20:00:09: INFO: [ui-main.py: 61]: question:hi
+2023-06-25 20:00:09: ERROR: [ui-main.py: 84]: 'NoneType' object has no attribute 'acall'
+2023-06-25 20:00:30: INFO: [ui-main.py: 81]: websocket disconnect
+2023-06-25 20:00:30: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 20:01:23: INFO: [ui-main.py: 93]: main start
+2023-06-25 20:01:40: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 20:01:41: INFO: [posthog.py: 16]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 20:01:41: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 20:01:41: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 20:01:41: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 20:01:41: INFO: [duckdb.py: 506]: loaded in 72 embeddings
+2023-06-25 20:01:41: INFO: [duckdb.py: 518]: loaded in 1 collections
+2023-06-25 20:01:41: INFO: [duckdb.py: 107]: collection with name langchain already exists, returning existing collection
+2023-06-25 20:01:43: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 20:01:49: INFO: [ui-main.py: 59]: question:hi
+2023-06-25 20:02:59: INFO: [ui-main.py: 93]: main start
+2023-06-25 20:03:05: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 20:03:06: INFO: [posthog.py: 16]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 20:03:06: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 20:03:06: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 20:03:06: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 20:03:06: INFO: [duckdb.py: 506]: loaded in 81 embeddings
+2023-06-25 20:03:07: INFO: [duckdb.py: 518]: loaded in 1 collections
+2023-06-25 20:03:07: INFO: [duckdb.py: 107]: collection with name langchain already exists, returning existing collection
+2023-06-25 20:03:09: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 20:03:10: INFO: [ui-main.py: 79]: websocket disconnect
+2023-06-25 20:03:10: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 20:03:10: INFO: [posthog.py: 16]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 20:03:10: INFO: [duckdb.py: 506]: loaded in 90 embeddings
+2023-06-25 20:03:10: INFO: [duckdb.py: 518]: loaded in 1 collections
+2023-06-25 20:03:10: INFO: [duckdb.py: 107]: collection with name langchain already exists, returning existing collection
+2023-06-25 20:03:11: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 20:03:17: INFO: [ui-main.py: 59]: question:hi
+2023-06-25 20:04:24: INFO: [ui-main.py: 93]: main start
+2023-06-25 20:04:27: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 20:04:27: INFO: [posthog.py: 16]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 20:04:28: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 20:04:28: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 20:04:28: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 20:04:28: INFO: [duckdb.py: 506]: loaded in 99 embeddings
+2023-06-25 20:04:28: INFO: [duckdb.py: 518]: loaded in 1 collections
+2023-06-25 20:04:28: INFO: [duckdb.py: 107]: collection with name langchain already exists, returning existing collection
+2023-06-25 20:04:30: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 20:04:34: INFO: [ui-main.py: 59]: question:whats your name
+2023-06-25 20:05:51: INFO: [ui-main.py: 94]: main start
+2023-06-25 20:06:01: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 20:06:02: INFO: [posthog.py: 16]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 20:06:02: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 20:06:02: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 20:06:02: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 20:06:03: INFO: [duckdb.py: 506]: loaded in 108 embeddings
+2023-06-25 20:06:03: INFO: [duckdb.py: 518]: loaded in 1 collections
+2023-06-25 20:06:03: INFO: [duckdb.py: 107]: collection with name langchain already exists, returning existing collection
+2023-06-25 20:06:06: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 20:06:24: INFO: [ui-main.py: 80]: websocket disconnect
+2023-06-25 20:06:48: INFO: [ui-main.py: 94]: main start
+2023-06-25 20:06:50: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 20:06:50: INFO: [posthog.py: 16]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 20:06:51: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 20:06:51: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 20:06:51: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 20:06:51: INFO: [duckdb.py: 506]: loaded in 117 embeddings
+2023-06-25 20:06:51: INFO: [duckdb.py: 518]: loaded in 1 collections
+2023-06-25 20:06:51: INFO: [duckdb.py: 107]: collection with name langchain already exists, returning existing collection
+2023-06-25 20:06:53: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 20:07:10: INFO: [ui-main.py: 80]: websocket disconnect
+2023-06-25 20:07:11: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 20:07:11: INFO: [posthog.py: 16]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 20:07:11: INFO: [duckdb.py: 506]: loaded in 126 embeddings
+2023-06-25 20:07:11: INFO: [duckdb.py: 518]: loaded in 1 collections
+2023-06-25 20:07:11: INFO: [duckdb.py: 107]: collection with name langchain already exists, returning existing collection
+2023-06-25 20:07:11: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 20:07:22: INFO: [ui-main.py: 80]: websocket disconnect
+2023-06-25 20:07:22: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 20:07:22: INFO: [posthog.py: 16]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 20:07:22: INFO: [duckdb.py: 506]: loaded in 135 embeddings
+2023-06-25 20:07:22: INFO: [duckdb.py: 518]: loaded in 1 collections
+2023-06-25 20:07:22: INFO: [duckdb.py: 107]: collection with name langchain already exists, returning existing collection
+2023-06-25 20:07:23: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 20:07:24: INFO: [ui-main.py: 80]: websocket disconnect
+2023-06-25 20:07:25: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 20:07:25: INFO: [posthog.py: 16]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 20:07:25: INFO: [duckdb.py: 506]: loaded in 144 embeddings
+2023-06-25 20:07:25: INFO: [duckdb.py: 518]: loaded in 1 collections
+2023-06-25 20:07:25: INFO: [duckdb.py: 107]: collection with name langchain already exists, returning existing collection
+2023-06-25 20:07:26: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 20:07:43: INFO: [ui-main.py: 60]: question:123
+2023-06-25 20:09:46: INFO: [ui-main.py: 95]: main start
+2023-06-25 20:09:49: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 20:09:49: INFO: [posthog.py: 16]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 20:09:50: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 20:09:50: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 20:09:50: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 20:09:50: INFO: [duckdb.py: 506]: loaded in 153 embeddings
+2023-06-25 20:09:50: INFO: [duckdb.py: 518]: loaded in 1 collections
+2023-06-25 20:09:50: INFO: [duckdb.py: 107]: collection with name langchain already exists, returning existing collection
+2023-06-25 20:09:52: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 20:09:57: INFO: [ui-main.py: 60]: question:hihi
+2023-06-25 20:12:30: INFO: [ui-main.py: 95]: main start
+2023-06-25 20:12:32: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 20:12:33: INFO: [posthog.py: 16]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 20:12:33: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 20:12:33: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 20:12:33: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 20:12:33: INFO: [duckdb.py: 506]: loaded in 162 embeddings
+2023-06-25 20:12:33: INFO: [duckdb.py: 518]: loaded in 1 collections
+2023-06-25 20:12:33: INFO: [duckdb.py: 107]: collection with name langchain already exists, returning existing collection
+2023-06-25 20:12:36: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 20:12:36: INFO: [ui-main.py: 81]: websocket disconnect
+2023-06-25 20:12:37: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 20:12:37: INFO: [posthog.py: 16]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 20:12:37: INFO: [duckdb.py: 506]: loaded in 171 embeddings
+2023-06-25 20:12:37: INFO: [duckdb.py: 518]: loaded in 1 collections
+2023-06-25 20:12:37: INFO: [duckdb.py: 107]: collection with name langchain already exists, returning existing collection
+2023-06-25 20:12:38: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 20:12:40: INFO: [ui-main.py: 81]: websocket disconnect
+2023-06-25 20:12:41: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 20:12:41: INFO: [posthog.py: 16]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 20:12:41: INFO: [duckdb.py: 506]: loaded in 180 embeddings
+2023-06-25 20:12:41: INFO: [duckdb.py: 518]: loaded in 1 collections
+2023-06-25 20:12:41: INFO: [duckdb.py: 107]: collection with name langchain already exists, returning existing collection
+2023-06-25 20:12:42: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 20:12:51: INFO: [ui-main.py: 60]: question:gogo
+2023-06-25 20:16:48: INFO: [ui-main.py: 101]: main start
+2023-06-25 20:17:06: WARNING: [text_splitter.py: 139]: Created a chunk of size 1104, which is longer than the specified 1000
+2023-06-25 20:17:06: INFO: [posthog.py: 16]: Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-06-25 20:17:07: INFO: [ctypes.py: 22]: Successfully imported ClickHouse Connect C data optimizations
+2023-06-25 20:17:07: INFO: [ctypes.py: 31]: Successfully import ClickHouse Connect C/Numpy optimizations
+2023-06-25 20:17:07: INFO: [json_impl.py: 45]: Using orjson library for writing JSON byte strings
+2023-06-25 20:17:07: INFO: [duckdb.py: 506]: loaded in 198 embeddings
+2023-06-25 20:17:07: INFO: [duckdb.py: 518]: loaded in 1 collections
+2023-06-25 20:17:07: INFO: [duckdb.py: 107]: collection with name langchain already exists, returning existing collection
+2023-06-25 20:17:10: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
+2023-06-25 20:17:10: INFO: [ui-main.py: 60]: question:hi
+2023-06-25 20:17:48: INFO: [ui-main.py: 60]: question:whats the book about
+2023-06-25 20:18:18: INFO: [ui-main.py: 60]: question:whats ur name
+2023-06-25 20:18:38: INFO: [ui-main.py: 60]: question:anything else?
+2023-06-25 20:18:53: INFO: [ui-main.py: 87]: websocket disconnect
+2023-06-25 20:18:53: INFO: [duckdb.py: 460]: Persisting DB to disk, putting it in the save folder: ./data
