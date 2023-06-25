@@ -50,7 +50,7 @@ async def get(request: Request):
 @app.websocket("/chat")
 async def websocket_endpoint(websocket: WebSocket):
     qa = get_chain()
-
+    print("get chain done!!!!!!")
     await websocket.accept()
     chat_history = []
     while True:
